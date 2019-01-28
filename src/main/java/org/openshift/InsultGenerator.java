@@ -23,7 +23,7 @@ public class InsultGenerator {
 
 			if (connection != null) {
 				String SQL = "select a.string AS first, b.string AS second, c.string AS noun from short adjective a, long adjective b, noun c ORDER BY random() limit 1";
-				Statement stmt = connection.createStatemebt();
+				Statement stmt = connection.createStatement();
 				ResultSet rs = stmt.executeQuery(SQL);
 				while(rs.next()) {
 					if ( vowels.indexOf(rs.getString("first").charAt(0)) == -1 ) {
