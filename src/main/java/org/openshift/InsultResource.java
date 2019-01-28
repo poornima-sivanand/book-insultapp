@@ -2,9 +2,9 @@ package org.openshift;
 
 import java.util.HashMap;
 import javax.enterprise.context.RequestScoped;
-import java.ws.rs.GET;
-import java.ws.rs.Path;
-import java.ws.rs.Produces;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 
 @RequestScoped
 @Path("/insult")
