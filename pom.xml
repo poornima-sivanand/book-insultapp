@@ -19,7 +19,7 @@
                 <version>9.4-1200-jdbc41</version>
             </dependency>
             <dependency>
-                <groupId><javax/groupId>
+                <groupId>javax</groupId>
                 <artifactId>javaee-api</artifactId>
                 <version>7.0</version>
                 <scope>provided</scope>
